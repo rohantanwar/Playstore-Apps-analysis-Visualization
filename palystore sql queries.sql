@@ -102,4 +102,6 @@ where a.app = 'Abs Training-Burn belly fat' and r.sentiment = 'neutral';
 
 -- 14. Extract all negative sentiment reviews for Adobe Acrobat Reader with their sentiment polarity and sentiment subjectivity
 
+select * from cleaned_reviews
+ where app = 'Adobe Acrobat Reader' and Sentiment = 'negative';
 
